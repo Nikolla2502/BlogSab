@@ -1,0 +1,20 @@
+@import "./layout/header";
+@import "./layout/utils";
+@import "./layout/banner";
+@import "./layout/main";
+@import "./layout/footer";
+@import "./pages/index";
+
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16 px;
+    
+    line-height: 1.6;
+    font-weight: 500
+}
